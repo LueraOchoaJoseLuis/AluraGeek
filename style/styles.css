@@ -1,0 +1,110 @@
+/*====================== Google Fonts =====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*==================== VARIABLES =======================*/
+
+:root {
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+    --primario-color: #ff4f1a;
+    --secundario-color: #efddcd;
+    --terciario-color: #ffffff;
+    --cuarto-color: #1E3E62;
+}
+
+/*==================== BASE ====================*/
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body{
+    margin: 0;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+/*==================== HEADER ====================*/
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cuarto-color);
+}
+
+/*==================== HOME ====================*/
+
+.main{
+    background-color: var(--terciario-color);
+}
+
+.home{
+    padding: 20px;
+}
+
+.contenedor__home{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor__productos {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    width: 100%; /* O ajusta el ancho como desees */
+    max-height: 400px; /* Define la altura máxima que puede tener el contenedor */
+    overflow-y: auto; /* Habilita el scroll vertical si el contenido excede la altura */
+    padding: 10px;
+    border: 1px solid #ccc; /* Opcional, para que el contenedor tenga un borde visible */
+    box-sizing: border-box;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre los productos */
+}
+
+.producto img {
+    max-width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto h3, .producto p {
+    margin: 0;
+}
+
+
+.contenedor__agregar__productos form {
+    display: flex;
+    flex-direction: column; /* Pone los inputs en una columna */
+    gap: 10px; /* Espacio entre los inputs */
+}
+
+.contenedor__agregar__productos input {
+    width: 100%; /* Ajusta los inputs para que ocupen todo el ancho disponible */
+    padding: 8px; /* Agrega un poco de padding para que se vean más grandes y cómodos */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+.contenedor__agregar__productos button {
+    margin-top: 10px; /* Espacio superior para los botones */
+    padding: 8px 16px; /* Tamaño de los botones */
+}
+
+/*==================== FOOTER ====================*/
+.footer{
+    background-color: var(--cuarto-color);
+}
+
+.contenedor__pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

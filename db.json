@@ -1,0 +1,16 @@
+{
+  "articulos": [
+    {
+      "id": 1,
+      "titulo": "Playstation",
+      "precio": "200",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 2,
+      "titulo": "Xbox Series S",
+      "precio": "300",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    }
+  ]
+}
