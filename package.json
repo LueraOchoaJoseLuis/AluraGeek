@@ -4,7 +4,8 @@
   "description": "plataforma geek",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --watch db.json --port 3001",
+    "vercel-start": "npm run start"
   },
   "author": "",
   "license": "ISC",
