@@ -65,6 +65,12 @@
       "titulo": "Zelda TOTK",
       "precio": 280,
       "imagen": "https://storegames.com.pe/wp-content/uploads/2024/10/SG10010965.webp"
+    },
+    {
+      "id": "db04",
+      "titulo": "Dangaronpa",
+      "precio": 200,
+      "imagen": "https://img.myshopline.com/image/store/1705286183817/Danganronpa-Decadence.jpeg"
     }
   ]
 }
