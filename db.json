@@ -1,16 +1,64 @@
 {
   "articulos": [
     {
-      "id": 1,
-      "titulo": "Playstation",
+      "id": "1",
+      "titulo": "The Last Of Us",
       "precio": "200",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Last_of_Us_Part_I_cover.jpg"
     },
     {
-      "id": 2,
-      "titulo": "Xbox Series S",
+      "id": "2",
+      "titulo": "Horizon Zero Dawn",
       "precio": "300",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      "imagen": "https://storegamesperu.com/files/images/productos/1635463845-horizon-zero-dawn-complete-edition-ps5.jpg"
+    },
+    {
+      "id": "6b1c",
+      "titulo": "Resident Evil 4",
+      "precio": 200,
+      "imagen": "https://storegamesperu.com/files/images/productos/1679608913-resident-evil-4-remake-ps4-pre-orden-0.jpg"
+    },
+    {
+      "id": "1875",
+      "titulo": "Red Dead Redemption 2",
+      "precio": 250,
+      "imagen": "https://acdn.mitiendanube.com/stores/427/682/products/red-dead-redemption11-0311e5e382ee030f1b15285015970553-640-0.jpg"
+    },
+    {
+      "id": "12c5",
+      "titulo": "Death Stranding",
+      "precio": 200,
+      "imagen": "https://m.media-amazon.com/images/I/41cK7b4muvL._SL500_.jpg"
+    },
+    {
+      "id": "41a6",
+      "titulo": "Days Gone",
+      "precio": 500,
+      "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/301992-512-512/image-0eaceaf113ef46a58eb448e8959ca292.jpg"
+    },
+    {
+      "id": "c711",
+      "titulo": "Horizon Forbiden West",
+      "precio": 250,
+      "imagen": "https://pesonyb2c.vtexassets.com/arquivos/ids/219119/711719548133_PS4_Standard_HZFW_Pshot_A.jpg?v=637859880702170000"
+    },
+    {
+      "id": "7555",
+      "titulo": "Jump Force",
+      "precio": 60,
+      "imagen": "https://gamestoreperu.com/files/images/productos/1543937622-jump-force-ps4-pre-orden.jpg"
+    },
+    {
+      "id": "b5a1",
+      "titulo": "It Takes Two",
+      "precio": 70,
+      "imagen": "https://lacasadelplay.com.co/cdn/shop/files/D_NQ_NP_2X_946261-MLA54128882429_032023-F.webp"
+    },
+    {
+      "id": "3953",
+      "titulo": "Mortal Kombat 11",
+      "precio": 100,
+      "imagen": "https://acdn.mitiendanube.com/stores/003/758/352/products/1638649338-2-juegos-en-1-mortal-kombat-11-ultimate-mas-injustice-2-leg-edition-ps4-d817a6f6559c8c129216979195248301-480-0.jpg"
     }
   ]
 }
