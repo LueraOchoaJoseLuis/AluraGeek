@@ -1,7 +1,6 @@
 /*====================== Google Fonts =====================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Press+Start+2P&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap');
+
 
 /*==================== VARIABLES =======================*/
 
@@ -227,4 +226,127 @@ body {
 
 .contenedor__pie h5 {
     font-family: "IBM Plex Mono";
+}
+
+
+/* ============== RESPONSIVE PARA PANTALLAS TABLETS ================*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        margin: 0;
+        display: block;
+        min-height: auto;
+        grid-template-rows: none;
+    }
+
+    .contenedor__home {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .contenedor__agregar__productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrar todos los elementos horizontalmente */
+        width: 400px;
+        gap: 10px;
+    }
+
+    .contenedor__productos {
+        display: grid;
+        grid-auto-flow: column; /* Para hacer que el grid se disponga en una fila */
+        grid-template-columns: repeat(3, 1fr); /* Define el número de columnas visibles */
+        gap: 20px;
+        max-width: 630px;
+        overflow-x: auto; /* Activa el scroll horizontal */
+        overflow-y: hidden; /* Oculta el scroll vertical */
+        padding: 10px;
+        box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.5);
+        white-space: nowrap; /* Evita el salto de línea */
+        margin-top: 30px;
+    }
+
+}
+
+/* ============== PARA PANTALLAS DE MOVILES ===================== */
+
+@media (max-width: 568px) {
+    body {
+        margin: 0;
+        display: block;
+        min-height: auto;
+        grid-template-rows: none;
+    }
+
+    .home {
+        padding: 20px 5px 20px 5px;
+    }
+
+    .contenedor__titulo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .contenedor__home {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    /*==================== Agregar Producto ====================*/
+
+    .contenedor__agregar__productos {
+        width: 80%; /* Ajusta el ancho al 90% de la pantalla */
+        padding: 20px 0px 0px 0px;
+    }
+
+    .contenedor__agregar__productos__titulo {
+        font-size: 24px; /* Reduce el tamaño de la fuente */
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+    }
+
+    .contenedor__agregar__productos input {
+        width: 95%; /* Ocupa todo el ancho disponible */
+        padding: 8px 8px; /* Ajusta el padding */
+        font-size: 12px; /* Reduce el tamaño de la fuente */
+    }
+
+    .contenedor__botones {
+        flex-direction: column; /* Muestra los botones en una columna */
+        gap: 10px; /* Reduce el espacio entre botones */
+    }
+
+    .contenedor__agregar__productos button {
+        padding: 10px 20px; /* Reduce el padding de los botones */
+        font-size: 16px; /* Reduce el tamaño de la fuente de los botones */
+    }
+
+    /* CONTENEDOR DE PRODUCTOS */
+
+    .contenedor__mis__productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor__productos {
+        display: grid;
+        grid-auto-flow: column; /* Para hacer que el grid se disponga en una fila */
+        grid-template-columns: repeat(2, 1fr); /* Define el número de columnas visibles */
+        gap: 5px;
+        max-width: 400px;
+        overflow-x: auto; /* Activa el scroll horizontal */
+        overflow-y: hidden; /* Oculta el scroll vertical */
+        padding: 10px;
+        box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.5);
+        white-space: nowrap; /* Evita el salto de línea */
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
