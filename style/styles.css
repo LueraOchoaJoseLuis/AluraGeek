@@ -141,23 +141,23 @@ body {
 .contenedor__agregar__productos {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar todos los elementos horizontalmente */
+    align-items: center;
     width: 400px;
 }
 
 .contenedor__agregar__productos__titulo {
     font-family: "Press Start 2P";
     font-size: 24px;
-    text-align: center; /* Centrar el texto del título */
+    text-align: center; 
     margin-bottom: 20px;
 }
 
 .contenedor__agregar__productos__titulo p {
-    margin: 0; /* Eliminar márgenes entre las líneas */
+    margin: 0; 
 }
 
 .contenedor__agregar__productos__titulo p:first-child {
-    margin-bottom: 5px; /* Espacio entre "AGREGAR" y "PRODUCTO:" */
+    margin-bottom: 5px; 
 }
 
 .contenedor__agregar__productos input {
@@ -250,22 +250,22 @@ body {
     .contenedor__agregar__productos {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centrar todos los elementos horizontalmente */
+        align-items: center; 
         width: 400px;
         gap: 10px;
     }
 
     .contenedor__productos {
         display: grid;
-        grid-auto-flow: column; /* Para hacer que el grid se disponga en una fila */
-        grid-template-columns: repeat(3, 1fr); /* Define el número de columnas visibles */
+        grid-auto-flow: column; 
+        grid-template-columns: repeat(3, 1fr); 
         gap: 20px;
         max-width: 630px;
-        overflow-x: auto; /* Activa el scroll horizontal */
-        overflow-y: hidden; /* Oculta el scroll vertical */
+        overflow-x: auto; 
+        overflow-y: hidden;
         padding: 10px;
         box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.5);
-        white-space: nowrap; /* Evita el salto de línea */
+        white-space: nowrap; 
         margin-top: 30px;
     }
 
@@ -301,30 +301,30 @@ body {
     /*==================== Agregar Producto ====================*/
 
     .contenedor__agregar__productos {
-        width: 80%; /* Ajusta el ancho al 90% de la pantalla */
+        width: 80%;
         padding: 20px 0px 0px 0px;
     }
 
     .contenedor__agregar__productos__titulo {
-        font-size: 24px; /* Reduce el tamaño de la fuente */
+        font-size: 24px; 
         margin-bottom: 15px;
         padding-bottom: 20px;
     }
 
     .contenedor__agregar__productos input {
-        width: 95%; /* Ocupa todo el ancho disponible */
-        padding: 8px 8px; /* Ajusta el padding */
-        font-size: 12px; /* Reduce el tamaño de la fuente */
+        width: 95%; 
+        padding: 8px 8px; 
+        font-size: 12px;
     }
 
     .contenedor__botones {
-        flex-direction: column; /* Muestra los botones en una columna */
-        gap: 10px; /* Reduce el espacio entre botones */
+        flex-direction: column;
+        gap: 10px; 
     }
 
     .contenedor__agregar__productos button {
-        padding: 10px 20px; /* Reduce el padding de los botones */
-        font-size: 16px; /* Reduce el tamaño de la fuente de los botones */
+        padding: 10px 20px; 
+        font-size: 16px; 
     }
 
     /* CONTENEDOR DE PRODUCTOS */
@@ -337,15 +337,15 @@ body {
 
     .contenedor__productos {
         display: grid;
-        grid-auto-flow: column; /* Para hacer que el grid se disponga en una fila */
-        grid-template-columns: repeat(2, 1fr); /* Define el número de columnas visibles */
+        grid-auto-flow: column; 
+        grid-template-columns: repeat(2, 1fr); 
         gap: 5px;
         max-width: 400px;
-        overflow-x: auto; /* Activa el scroll horizontal */
-        overflow-y: hidden; /* Oculta el scroll vertical */
+        overflow-x: auto; 
+        overflow-y: hidden; 
         padding: 10px;
         box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.5);
-        white-space: nowrap; /* Evita el salto de línea */
+        white-space: nowrap; 
         margin-top: 30px;
         margin-bottom: 30px;
     }
